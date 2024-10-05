@@ -1,0 +1,33 @@
+.allservicecard{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+.allservicecard .scard1{
+    padding: 15px 0;
+}
+.allservicecard .scard1 h1{
+    color: #1977cc;
+    font-family: cursive;
+    padding: 10px 0; 
+}
+.allservicecard button{
+    background-color: #1977cc;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 25px;
+}
+
+.allservicecard button:hover {
+    background-color: chartreuse;
+   
+
+}
+@media (max-width:600px) {
+    .allservicecard{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    
+}
